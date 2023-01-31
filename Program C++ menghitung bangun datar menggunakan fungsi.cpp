@@ -5,10 +5,12 @@ float LuasPersegiPanjang(float p,float l){
 	float L = p*l;
 	return L;
 }
+
 float LuasSegitiga(float a,float t){
 	float L = 0.5*a*t;
 	return L;
 }
+
 float LuasLingkaran(float r){
 	float L = 3.14*r*r;
 	return L;
