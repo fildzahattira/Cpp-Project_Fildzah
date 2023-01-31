@@ -12,11 +12,11 @@ typedef struct
 
 
 int main(){
-	int jumlah;
+	int jumlahHehe;
 	cout<<"Berapa data dosen? ";
-	cin>>jumlah;
+	cin>>jumlahHehe;
 	int i;
-	data_dosen dosen_informatika[jumlah];
+	data_dosen dosen_informatika[jumlahHehe];
 	ofstream file;
 	file.open("data_dosen_informatika.txt");
 	cout<<endl;
@@ -25,7 +25,7 @@ int main(){
 	file<<"Data Dosen"<<endl;
 	
 	// Insert to array
-	for(i=0;i<jumlah;i++){
+	for(i=0;i<jumlahHehe;i++){
 		cout<<"("<<i+1<<")"<<endl;
 		cout<<"Nama : ";
 		getline(cin>>ws,dosen_informatika[i].nama);
@@ -34,7 +34,7 @@ int main(){
 	}
 	
 	// Write to file(hasil .txt tersimpan dalam file yang sama dengan tempat penyimpanan program ini)
-	for(i=0;i<jumlah;i++){
+	for(i=0;i<jumlahHehe;i++){
 		file<<"("<<i+1<<")"<<endl;
 		file<<"Nama : "<<dosen_informatika[i].nama<<endl;
 		file<<"ID : "<<dosen_informatika[i].id<<endl;	
