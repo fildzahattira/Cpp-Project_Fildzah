@@ -1,5 +1,8 @@
 #include<iostream>
 using namespace std;
+
+// 1. Fidlzah Attira Khair
+// 2. Farhan
 int main()
 {
 	float b;
