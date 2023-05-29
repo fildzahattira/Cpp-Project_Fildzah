@@ -1,11 +1,6 @@
 #include<iostream>
 using namespace std;
 
-// 1. Fidlzah Attira Khair
-// 2. Farhan
-
-
-// 3. Fadhly
 int main()
 {
 	float b;

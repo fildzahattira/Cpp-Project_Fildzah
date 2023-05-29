@@ -19,7 +19,7 @@ int main(){
 	data_dosen dosen_informatika[jumlahHehe];
 	ofstream file;
 	file.open("data_dosen_informatika.txt");
-	cout<<endl;
+	cout<<endl;           
 	cout<<"Masukkan data dosen : ";
 	cout<<endl;
 	file<<"Data Dosen"<<endl;
