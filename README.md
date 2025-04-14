@@ -1,1 +1,1 @@
-Welcome!
+This repository contains a collection of C++ projects I developed during my time studying Informatics. Each project focuses on practicing different programming concepts including object-oriented programming (OOP), data structures, file handling, and algorithm implementation.
